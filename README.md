@@ -1,8 +1,13 @@
+#Name 
+Ahmed Masoud Baghni 
+#NIM 
+20230040030
+
 # DevPulse - GitHub Activity Dashboard
 
 A beautiful, real-time GitHub Activity Dashboard built with React, TypeScript, and Vite. Discover trending repositories, search developer profiles, and explore programming language statistics.
 
-## 🌟 Features
+##  Features
 
 ### 1. Trending Repositories
 - View top GitHub repositories with 1000+ stars
@@ -22,7 +27,7 @@ A beautiful, real-time GitHub Activity Dashboard built with React, TypeScript, a
 - Beautiful progress bars showing relative popularity
 - Real-time data from GitHub API
 
-## 🎨 Design
+##  Design
 
 - **Dark Theme**: Beautiful slate/blue color scheme optimized for developers
 - **Responsive**: Works perfectly on desktop, tablet, and mobile
@@ -30,7 +35,7 @@ A beautiful, real-time GitHub Activity Dashboard built with React, TypeScript, a
 - **Modern UI**: Clean, professional interface with gradient backgrounds
 - **Fast Performance**: Built with Vite for instant load times
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Frontend**: React 18 + TypeScript
 - **Build Tool**: Vite (blazing fast)
@@ -39,7 +44,7 @@ A beautiful, real-time GitHub Activity Dashboard built with React, TypeScript, a
 - **Icons**: Lucide React
 - **HTTP Client**: Axios
 
-## 📦 Project Structure
+## Project Structure
 
 ```
 DevPulse/
@@ -62,7 +67,7 @@ DevPulse/
 └── README.md                      # This file
 ```
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -88,7 +93,6 @@ DevPulse/
 
 4. **Open in browser**
    - Local: http://localhost:3001/
-   - Public: https://3001-ieylyd40iup0oicqgy4ca-c003b840.manus-asia.computer
 
 ### Build for Production
 
@@ -98,7 +102,7 @@ npm run build
 
 This creates an optimized build in the `dist/` folder.
 
-## 📱 Creating an APK
+##  Creating an APK
 
 ### Method 1: Using Capacitor (Recommended)
 
@@ -121,21 +125,6 @@ cd android
 ```
 
 APK will be at: `android/app/build/outputs/apk/debug/app-debug.apk`
-
-### Method 2: Using Expo
-
-```bash
-npm install -g eas-cli
-eas login
-eas build --platform android --type apk
-```
-
-### Method 3: Using PWA
-
-Install directly on Android as a web app:
-1. Open the web app in Chrome on Android
-2. Tap menu (⋮) → "Install app"
-3. App installs as native app
 
 See `APK_BUILD_GUIDE.md` for detailed instructions.
 
@@ -166,7 +155,7 @@ GET https://api.github.com/users/{username}
 GET https://api.github.com/search/repositories?q=language:python
 ```
 
-## 🎯 Key Features Explained
+##  Key Features Explained
 
 ### Real-time Data
 - All data is fetched live from GitHub API
@@ -183,28 +172,6 @@ GET https://api.github.com/search/repositories?q=language:python
 - Works on all screen sizes
 - Touch-friendly interface
 
-## 🚀 Deployment
-
-### Deploy to Vercel
-
-```bash
-npm install -g vercel
-vercel
-```
-
-### Deploy to Netlify
-
-```bash
-npm install -g netlify-cli
-netlify deploy --prod --dir=dist
-```
-
-### Deploy to GitHub Pages
-
-```bash
-npm run build
-# Push dist/ folder to gh-pages branch
-```
 
 ## 📚 Documentation
 
@@ -212,7 +179,7 @@ npm run build
 - `README.md` - This file
 - Source code comments for implementation details
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### App won't load
 - Check internet connection
@@ -229,14 +196,14 @@ npm run build
 - Run `npm install` again
 - Clear npm cache: `npm cache clean --force`
 
-## 📊 Performance
+## Performance
 
 - **Build Size**: ~450 KB (gzipped: ~136 KB)
 - **Load Time**: < 1 second
 - **API Response**: < 1 second typically
 - **Mobile Optimized**: Fast on 4G/5G
 
-## 🔐 Privacy & Security
+## Privacy & Security
 
 - No user authentication required
 - No personal data collection
@@ -244,7 +211,7 @@ npm run build
 - Uses GitHub's public API
 - All data stored in browser memory
 
-## 🎓 Learning Resources
+## Learning Resources
 
 This project demonstrates:
 - React best practices
@@ -255,22 +222,22 @@ This project demonstrates:
 - Error handling
 - State management with hooks
 
-## 📄 License
+## License
 
 This project uses GitHub's public API which is free to use.
 
-## 🤝 Contributing
+## Contributing
 
 Feel free to fork, modify, and improve this project!
 
-## 📞 Support
+## Support
 
 For issues or questions:
 - Check GitHub API documentation: https://docs.github.com/rest
 - Vite documentation: https://vitejs.dev/
 - React documentation: https://react.dev/
 
-## 🎉 Credits
+## Credits
 
 Built with:
 - React 18
@@ -282,6 +249,3 @@ Built with:
 
 ---
 
-**Made with ❤️ for developers**
-
-Visit the live app: https://3001-ieylyd40iup0oicqgy4ca-c003b840.manus-asia.computer
