@@ -77,6 +77,8 @@ DevPulse/
 
 ### Installation
 
+note: for android users you can install the DevPulse V1 Beta.apk from the project files
+
 1. **Clone or navigate to the project**
    ```bash
    cd /home/ubuntu/DevPulse
