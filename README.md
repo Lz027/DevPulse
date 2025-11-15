@@ -4,6 +4,10 @@ Ahmed Masoud Baghni
 **NIM:** 
 20230040030
 
+# Video Demo
+**Link:** https://drive.google.com/drive/folders/1Xqy1okLePQthKK9a_0r4H_955TdITklh
+
+
 # DevPulse - GitHub Activity Dashboard
 
 A beautiful, real-time GitHub Activity Dashboard built with React, TypeScript, and Vite. Discover trending repositories, search developer profiles, and explore programming language statistics.
